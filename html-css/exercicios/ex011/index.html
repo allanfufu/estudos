@@ -16,7 +16,11 @@
     </picture>
     <h1>Reproduzindo Áudios</h1>
     <p>Vamos aprender a reproduzir áudios em HTML5</p>
-    <audio src="midia/happy-mistake.mp3" controls autoplay></audio>
-    <!-- MP3 WAV OGG-->
+    <audio preload="metadata" autoplay controls loop>  
+        <source src="midia/In-the-Land-of-Rhinoplasty.mp3" type="audio/mpeg">
+        <source src="midia/In-the-Land-of-Rhinoplasty.mp3" type="audio/ogg">
+        <source src="midia/In-the-Land-of-Rhinoplasty.mp3" type="audio/wav">
+        <p>Infelizmente seu navegado não consegue reproduzir áudio. <a href="midia/In-the-Land-of-Rhinoplasty.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
 </body>
 </html>
