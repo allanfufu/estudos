@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Fazendo a utilização de parágrafos em HTML5 -->
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -7,10 +8,16 @@
 </head>
 <body>
     <h1>Parágrafos e quebras de linha</h1>
+    
+    <!-- OBS.: Não importa a maneira como você escreve o seu conteúdo. O que importa são as marcas HTML -->
+    
     <hr>
-    <p>Você pode escrever um parágrafo de qualquer jeito. Basta colocar tudo no meio do par de tags &lt;p&gt; e &lt;/p&gt;</p> <!-- LESS THAN / GREATER THAN-->
+    
+    <p>Você pode escrever um parágrafo de qualquer jeito. Basta colocar tudo no meio do par de tags &lt;p&gt; e &lt;/p&gt;</p> <!-- less than / greater than -->
+    
     <p>Se precisar quebrar o texto em algum lugar específico <br> como esse, você pode usar a tag &lt;br&gt;</p>
-    <P>Vamos adicionar alguns símbolos especiais:
+    
+    <p>Vamos adicionar alguns símbolos especiais:
         &reg;
         &copy;
         &trade;
@@ -19,11 +26,17 @@
         &yen;
         &cent;
         &Delta;
-        &uarr;
-        <p>Vamos adicionar alguns emoji
-            &#x1F596 
-            &#x1F913
-        </p>
-    </P>
+        &uparrow; <!-- ou de forma abreviada &uarr; -->
+        &downarrow;
+    </p>
+
+    <p>Vamos adicionar alguns emoji
+        &#x1F596; 
+        &#x1F913;
+    </p>
+
+    <p>Obs1.: a tag &lt;br&gt; não possui fechamento com &lt;/br&gt;</p>
+    <p>Obs2.: JAMAIS use vários &lt;br&gt;&lt;br&gt;&lt;br&gt;... para criar um espaço grande na sua página. Faça isso usando CSS.</p>
+    
 </body>
 </html>
