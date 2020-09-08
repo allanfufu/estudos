@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fontes em CSS</title>
     <style>
+        /* @import url */
         body {
             font-family: Arial, Helvetica, sans-serif;
             /* 
@@ -16,6 +17,20 @@
             16px geralmente = 1 em
             */
             font-size: 1em;
+            /* leighter normal bold bolder */
+        }
+        h1 {
+            /*shorthand font
+            - font-style -> font-weight -> font-size -> font-family: 'Work Sans', sans-serif;
+            font-weight: bolder
+            font-size: 3em
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+        h2 {
+            font: bold 2em 'Work Sans'
+        }
         }
     </style>
 </head>
