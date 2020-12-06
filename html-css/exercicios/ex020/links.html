@@ -20,6 +20,7 @@
         a {
             color: red;
             text-decoration: none;
+            font-weight: bold;
         }
 
         a:visited {
@@ -36,18 +37,27 @@
             color: yellow;
         }
 
-        a::after {
-            content: ' [Link]';
+        .especial {
+            background-color: rgb(255, 140, 140);
+        }
+
+        .especial::before {
+            content: '⇒ ';
+        }
+
+        .especial::after {
+            content: ' ⇐';
+            /* content: ' [Link]';
             text-decoration: none;
             font-weight: normal;
-            color: darkgray;
+            color: darkgray; */
         }
     </style>
 </head>
 <body>
     <h1>Personalizando Links</h1>
     <li><a href="https://github.com/allanfufu" target="_blank">Repositório GitHub</a></li>
-    <li><a href="https://www.youtube.com/CEFETMGOficial">Canal do YouTube</a></li>
-    <li><a href="http://www.deecv.cefetmg.br/">Site do Deecv</a></li> 
+    <li><a href="https://www.youtube.com/CEFETMGOficial" class="especial">Canal do YouTube</a></li>
+    <li><a href="http://www.deecv.cefetmg.br/" class="especial">Site do Deecv</a></li> 
 </body>
 </html>
