@@ -14,7 +14,7 @@ h1 {
     color: #1e402f;
 }
 
-h1#principal {
+h1#principal { /* h1 pode ser omitido */
     text-align: center;
     background-color: #3c805e;
     color: white;
